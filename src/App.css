@@ -54,17 +54,153 @@ header p {
   text-align: center;
 }
 
-.homeWelcome h2 {
+.homeWelcome h2, .homeEvents h2 {
   font-family: var(--primary-font);
   font-size: 48px;
   color: var(--primary-color);
   list-style: 48px;
 }
 
-.homeWelcome p {
+.homeWelcome p, .homeEvents p {
   font-family: var(--secondary-font);
   color: var(--primary-color);
   font-size: 16px;
   line-height: 19.2px;
-  margin-top: 20px;
+  margin-top: 15px;
+}
+
+.homeEvents {
+  padding: 80px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.eventListing {
+  margin-top: 40px;
+}
+
+.eventDescription {
+  background: white;
+  padding: 36px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.eventDescription h3 {
+  font-family: var(--secondary-font);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: start;
+  padding-bottom: 32px;
+}
+
+.eventDescription a {
+  text-decoration: none;
+}
+
+.sermons {
+  max-width: 85%;
+  background: white;
+  border-radius: 12px;
+  margin: 70px auto;
+  padding: 70px;
+}
+
+.sermons h2 {
+  font-family: var(--primary-font);
+  font-size: 90px;
+  color: var(--primary-color);
+  line-height: 90px;
+}
+
+.sermons p {
+  font-family: var(--secondary-font);
+  font-size: 20px;
+  color: var(--primary-color);
+  line-height: 24px;
+  margin-bottom: 34px;
+}
+
+.sermons button {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19.2px;
+  padding: 12px 49px;
+  background: var(--secondary-color);
+  color: white;
+  border: 1px solid var(--secondary-color);
+  border-radius: 20px;
+}
+
+#disabledButton {
+  background: #D6D6DB;
+  font-family: var(--secondary-font);
+  font-size: 14px;
+  color: var(--primary-color);
+  border: 1px solid #D6D6DB;
+  border-radius: 20px;
+  padding: 7px 24px;
+  display: flex;
+  justify-content: start;
+}
+
+#activeButton {
+  background: var(--secondary-color);
+  font-family: var(--secondary-font);
+  font-size: 14px;
+  color: white;
+  border: 1px solid var(--secondary-color);
+  border-radius: 20px;
+  padding: 7px 49px;
+  display: flex;
+  justify-content: start;
+}
+
+#activeButton:hover {
+  background: var(--highlight-color);
+  color: var(--primary-color);
+  border: 1px solid var(--highlight-color);
+  transition: all ease-in-out 200ms;
+}
+
+#firstBall {
+  width: 72px;
+  position: absolute;
+  left: 120px;
+  z-index: -1;
+}
+
+#secondBall {
+  position: absolute;
+  left: 880px;
+  top: 2065px;
+}
+
+#thirdBall {
+  width: 150px;
+  position: absolute;
+  right: 113px;
+  top: 2398px;
+  z-index: -1;
+}
+
+#sermonHeadphones {
+  position: absolute;
+  right: 114px;
+  top: 2632px;
+}
+
+@media (min-width:1290px) {
+  .eventDescription {
+      background: white;
+      padding: 36px;
+      margin-left: 4px;
+      margin-right: 4px;
+      border-bottom-left-radius: 12px;
+      border-bottom-right-radius: 12px;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
 }
