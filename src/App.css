@@ -1,3 +1,49 @@
-.App {
-  text-align: center;
+:root {
+  --primary-font: "Luckiest Guy", cursive;
+  --secondary-font: "Bitter", serif;
+  --primary-color: #232528;
+  --secondary-color: #0834C4;
+  --highlight-color: #FF6F00;
+}
+
+header h1 {
+  font-family: var(--primary-font);
+  font-size: 100px;
+  line-height: 90px;
+}
+
+header p {
+  font-family: var(--secondary-font);
+  font-size: 16px;
+  line-height: 19.2px;
+  margin: 26px 0;
+  color: var(--primary-color);
+}
+
+.highlight {
+  color: var(--highlight-color);
+}
+
+.communityButton {
+  background-color: var(--secondary-color);
+  color: white;
+  border: 1px solid var(--secondary-color);
+  border-radius: 20px;
+  padding: 14px 29px;
+  margin-top: 10px;
+  margin-right: 34px;
+}
+
+.learnButton {
+  background-color: white;
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  border-radius: 20px;
+  padding: 14px 45px;
+  margin-top: 10px;
+}
+
+.heroText {
+  align-self: center;
+  padding-left: 100px;
 }
