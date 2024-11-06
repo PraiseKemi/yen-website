@@ -1,5 +1,6 @@
 import './App.css';
 import heroimage from "./home-hero-section.png";
+import welcomeimage from "./home-welcome-section.svg";
 
 function App() {
   return (
@@ -20,6 +21,14 @@ function App() {
             </div>
           </div>
       </header>
+      <section className="homeWelcome">
+        <h2>WELCOME TO <span className="highlight">YEN</span></h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          <br />
+          eiusmod tempor
+        </p>
+        <img src={welcomeimage} alt="yen mission and vision" className="img-fluid" />
+      </section>
     </div>
   );
 }

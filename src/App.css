@@ -47,3 +47,24 @@ header p {
   align-self: center;
   padding-left: 100px;
 }
+
+.homeWelcome {
+  background: white;
+  padding: 80px 77px;
+  text-align: center;
+}
+
+.homeWelcome h2 {
+  font-family: var(--primary-font);
+  font-size: 48px;
+  color: var(--primary-color);
+  list-style: 48px;
+}
+
+.homeWelcome p {
+  font-family: var(--secondary-font);
+  color: var(--primary-color);
+  font-size: 16px;
+  line-height: 19.2px;
+  margin-top: 20px;
+}
