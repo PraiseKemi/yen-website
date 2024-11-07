@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import heroimage from "./home-hero-section.png";
-import welcomeimage from "./home-welcome-section.svg";
-import eventsimage from "./events-image.svg";
-import blueball from "./blue-ball.svg";
-import orangeball from "./orange-ball.svg";
-import headphones from "./home-sermons-headphones.svg";
+import heroimage from "./images/home-hero-section.png";
+import welcomeimage from "./images/home-welcome-section.svg";
+import eventsimage from "./images/events-image.svg";
+import blueball from "./images/blue-ball.svg";
+import orangeball from "./images/orange-ball.svg";
+import headphones from "./images/home-sermons-headphones.svg";
 
 export default function App() {
   return (
@@ -20,10 +20,10 @@ export default function App() {
               </p>
               <a href='https://www.google.com' target='_blank' rel="noreferrer">
                 <button className="communityButton">Join Community</button>
-            </a>
-            <a href='https://www.google.com' target='_blank' rel="noreferrer">
-              <button className="learnButton">Learn more</button>
-            </a>
+              </a>
+              <a href='https://www.google.com' target='_blank' rel="noreferrer">
+                <button className="learnButton">Learn more</button>
+              </a>
             </div>
             <div className="heroImage col-md-6">
               <img src={heroimage} alt="girls praying" className="img-fluid float-end" />
@@ -49,7 +49,7 @@ export default function App() {
             <img src={eventsimage} alt="YEN event" className="img-fluid" />
               <div className="eventDescription">
                 <h3>Young Ministers Conference</h3>
-                <a href='https://www.google.com' target='_blank' rel="noreferrer">
+                <a href='#' target='_blank' rel="noreferrer">
                   <button id="disabledButton">UPCOMING</button>
                 </a>
                 <img src={blueball} alt="blue ball" className="img-fluid" id="firstBall" />
@@ -60,7 +60,7 @@ export default function App() {
               <div className="eventDescription">
                 <h3>Summer Camp 2025</h3>
                 <img src={orangeball} alt="orange ball" className="img-fluid" id="secondBall" />
-                <a href='https://www.google.com' target='_blank' rel="noreferrer">
+                <a href='#' target='_blank' rel="noreferrer">
                   <button id="disabledButton">UPCOMING</button>
                 </a>
             </div>
@@ -87,6 +87,45 @@ export default function App() {
         </p>
         <a href='https://www.google.com' target='_blank' rel="noreferrer"><button>Listen now</button></a>
         <img src={headphones} alt='headphones' className='img-fluid' id='sermonHeadphones' />
+      </section>
+
+      <section className="homeMinistries">
+        <h2>MINISTRIES IN YEN</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+        <div className="container">
+        <div className="row gx-5 ministryListing">
+          <div className="col-sm-4">
+            <img src={eventsimage} alt="YEN event" className="img-fluid" />
+              <div className="ministryDescription">
+                <h3>Ecclesia Queens</h3>
+                <a href='https://www.google.com' target='_blank' rel="noreferrer">
+                  <button id="ministryButton">Read more</button>
+                </a>
+                <img src={blueball} alt="blue ball" className="img-fluid" id="firstBallTwo" />
+            </div>
+          </div>
+          <div className="col-sm-4">
+            <img src={eventsimage} alt="YEN event" className="img-fluid" />
+              <div className="ministryDescription">
+                <h3>Young Ecclesia Worship</h3>
+                <img src={orangeball} alt="orange ball" className="img-fluid" id="secondBallTwo" />
+                <a href='https://www.google.com' target='_blank' rel="noreferrer">
+                  <button id="ministryButton">Read more</button>
+                </a>
+            </div>
+          </div>
+          <div className="col-sm-4">
+            <img src={eventsimage} alt="YEN event" className="img-fluid" />
+              <div className="ministryDescription">
+                <h3>School of Hard Knox</h3>
+                <a href='#' target='_blank' rel="noreferrer">
+                  <button id="disabledButton">UPCOMING</button>
+                </a>
+                <img src={blueball} alt="blue ball" className="img-fluid" id="thirdBallTwo" />
+            </div>
+          </div>
+          </div>
+        </div>
       </section>
     </div>
   );

@@ -34,6 +34,12 @@ header p {
   margin-right: 34px;
 }
 
+.communityButton:hover {
+  background-color: white;
+  color: var(--secondary-color);
+  transition: all ease-in-out 200ms;
+}
+
 .learnButton {
   background-color: white;
   color: var(--secondary-color);
@@ -41,6 +47,11 @@ header p {
   border-radius: 20px;
   padding: 14px 45px;
   margin-top: 10px;
+}
+.learnButton:hover {
+  background-color: var(--secondary-color);
+  color: white;
+  transition: all ease-in-out 200ms;
 }
 
 .heroText {
@@ -54,14 +65,14 @@ header p {
   text-align: center;
 }
 
-.homeWelcome h2, .homeEvents h2 {
+.homeWelcome h2, .homeEvents h2, .homeMinistries h2 {
   font-family: var(--primary-font);
   font-size: 48px;
   color: var(--primary-color);
   list-style: 48px;
 }
 
-.homeWelcome p, .homeEvents p {
+.homeWelcome p, .homeEvents p, .homeMinistries p {
   font-family: var(--secondary-font);
   color: var(--primary-color);
   font-size: 16px;
@@ -75,11 +86,18 @@ header p {
   margin-bottom: 80px;
 }
 
-.eventListing {
+.homeMinistries {
+  padding: 80px;
+  text-align: center;
+  margin-bottom: 80px;
+  margin-top: -40px;
+}
+
+.eventListing, .ministryListing {
   margin-top: 40px;
 }
 
-.eventDescription {
+.eventDescription, .ministryDescription {
   background: white;
   padding: 36px;
   border-bottom-left-radius: 12px;
@@ -87,7 +105,7 @@ header p {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.eventDescription h3 {
+.eventDescription h3, .ministryDescription h3 {
   font-family: var(--secondary-font);
   font-size: 20px;
   font-weight: 700;
@@ -96,7 +114,7 @@ header p {
   padding-bottom: 32px;
 }
 
-.eventDescription a {
+.eventDescription a, .ministryDescription a {
   text-decoration: none;
 }
 
@@ -160,9 +178,9 @@ header p {
 }
 
 #activeButton:hover {
-  background: var(--highlight-color);
-  color: var(--primary-color);
-  border: 1px solid var(--highlight-color);
+  background: white;
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
   transition: all ease-in-out 200ms;
 }
 
@@ -187,10 +205,48 @@ header p {
   z-index: -1;
 }
 
+#firstBallTwo {
+  width: 72px;
+  position: absolute;
+  left: 116px;
+  z-index: -1;
+}
+
+#secondBallTwo {
+  position: absolute;
+  left: 880px;
+  top: 3215px;
+}
+
+#thirdBallTwo {
+  width: 150px;
+  position: absolute;
+  right: 109px;
+  top: 3552px;
+  z-index: -1;
+}
+
 #sermonHeadphones {
   position: absolute;
   right: 114px;
   top: 2632px;
+}
+
+#ministryButton {
+    background-color: white;
+    color: var(--secondary-color);
+    font-size: 16px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 20px;
+    padding: 7px 49px;
+    display: flex;
+    justify-content: start;
+}
+
+#ministryButton:hover {
+  background-color: var(--secondary-color);
+  color: white;
+  transition: all ease-in-out 200ms;
 }
 
 @media (min-width:1290px) {
