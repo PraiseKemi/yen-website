@@ -153,6 +153,12 @@ header p {
   border-radius: 20px;
 }
 
+.sermons button:hover {
+  background: white;
+  color: var(--secondary-color);
+  transition: all ease-in-out 200ms;
+}
+
 #disabledButton {
   background: #D6D6DB;
   font-family: var(--secondary-font);

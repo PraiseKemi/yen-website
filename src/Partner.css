@@ -1,0 +1,46 @@
+.Partner {
+    max-width: 85%;
+    background: white;
+    border-radius: 12px;
+    margin: 70px auto;
+    padding: 70px;
+}
+
+.Partner h2 {
+    font-family: var(--primary-font);
+    font-size: 90px;
+    color: var(--primary-color);
+    line-height: 90px;
+}
+
+.Partner p {
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    color: var(--primary-color);
+    line-height: 24px;
+    margin-bottom: 34px;
+}
+
+.Partner button {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19.2px;
+    padding: 12px 72px;
+    background: var(--secondary-color);
+    color: white;
+    border: 1px solid var(--secondary-color);
+    border-radius: 20px;
+}
+
+.Partner button:hover {
+    background: white;
+    color: var(--secondary-color);
+    transition: all ease-in-out 200ms;
+}
+
+#partnerHeart {
+    position: absolute;
+    right: 114px;
+    top: 3785px;
+}
