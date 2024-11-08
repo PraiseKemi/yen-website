@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Partner from "./Partner";
+import Footer from "./Footer";
 import heroimage from "./images/home-hero-section.png";
 import welcomeimage from "./images/home-welcome-section.svg";
 import eventsimage from "./images/events-image.svg";
@@ -132,6 +133,10 @@ export default function App() {
       <section>
         <Partner />
       </section>
+
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
