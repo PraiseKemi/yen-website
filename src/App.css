@@ -20,12 +20,17 @@ header p {
   color: var(--primary-color);
 }
 
+header a {
+  text-decoration: none;
+}
+
 .highlight {
   color: var(--highlight-color);
 }
 
 .communityButton {
   background-color: var(--secondary-color);
+  font-family: var(--secondary-font);
   color: white;
   border: 1px solid var(--secondary-color);
   border-radius: 20px;
@@ -42,12 +47,14 @@ header p {
 
 .learnButton {
   background-color: white;
+  font-family: var(--secondary-font);
   color: var(--secondary-color);
   border: 1px solid var(--secondary-color);
   border-radius: 20px;
   padding: 14px 45px;
   margin-top: 10px;
 }
+
 .learnButton:hover {
   background-color: var(--secondary-color);
   color: white;
@@ -69,7 +76,6 @@ header p {
   font-family: var(--primary-font);
   font-size: 48px;
   color: var(--primary-color);
-  list-style: 48px;
 }
 
 .homeWelcome p, .homeEvents p, .homeMinistries p {
@@ -141,6 +147,10 @@ header p {
   margin-bottom: 34px;
 }
 
+.sermons a {
+  text-decoration: none;
+}
+
 .sermons button {
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -159,7 +169,7 @@ header p {
   transition: all ease-in-out 200ms;
 }
 
-#disabledButton {
+#disabledButton, #disabledButtonFirst {
   background: #D6D6DB;
   font-family: var(--secondary-font);
   font-size: 14px;
@@ -227,7 +237,7 @@ header p {
 #thirdBallTwo {
   width: 150px;
   position: absolute;
-  right: 109px;
+  right: 112px;
   top: 3552px;
   z-index: -1;
 }
@@ -239,14 +249,25 @@ header p {
 }
 
 #ministryButton {
-    background-color: white;
-    color: var(--secondary-color);
-    font-size: 16px;
-    border: 1px solid var(--secondary-color);
-    border-radius: 20px;
-    padding: 7px 49px;
-    display: flex;
-    justify-content: start;
+  background-color: white;
+  color: var(--secondary-color);
+  font-size: 16px;
+  border: 1px solid var(--secondary-color);
+  border-radius: 20px;
+  padding: 7px 49px;
+  display: flex;
+  justify-content: start;
+}
+
+#ministryButtonSecond {
+  background-color: white;
+  color: var(--secondary-color);
+  font-size: 16px;
+  border: 1px solid var(--secondary-color);
+  border-radius: 20px;
+  padding: 7px 49px;
+  display: flex;
+  justify-content: start;
 }
 
 #ministryButton:hover {
@@ -255,14 +276,341 @@ header p {
   transition: all ease-in-out 200ms;
 }
 
+#ministryButtonSecond:hover {
+  background-color: var(--secondary-color);
+  color: white;
+  transition: all ease-in-out 200ms;
+}
+
 @media (min-width:1290px) {
-  .eventDescription {
-      background: white;
-      padding: 36px;
+  .eventDescription, .ministryDescription {
       margin-left: 4px;
       margin-right: 4px;
-      border-bottom-left-radius: 12px;
-      border-bottom-right-radius: 12px;
-      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+}
+
+@media (min-width:1206px) and (max-width:1289px) {
+
+}
+
+@media (min-width:900px) and (max-width:1205px) {
+  header h1 {
+    font-size: 60px;
+    line-height: 70px;
+  }
+  
+  header p {
+    font-size: 12px;
+    line-height: 15.2px;
+  }
+
+  .communityButton {
+    padding: 10px 20px;
+  }
+
+  .learnButton {
+    padding: 10px 37px;
+  }
+
+  .homeWelcome h2,
+  .homeEvents h2,
+  .homeMinistries h2 {
+    font-size: 32px;
+  }
+  
+  .homeWelcome p,
+  .homeEvents p,
+  .homeMinistries p {
+    font-size: 12px;
+    line-height: 15.2px;
+  }
+
+  .eventDescription h3,
+  .ministryDescription h3 {
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  #disabledButton {
+    font-size: 12px;
+    padding: 7px 20px;
+  }
+
+  #activeButton {
+    font-size: 12px;
+    padding: 7px 25px;
+  }
+
+  #disabledButtonFirst {
+    font-size: 12px;
+    padding: 7px 20px;
+    margin-top: -15px;
+  }
+
+  #ministryButton {
+    font-size: 12px;
+    padding: 7px 25px;
+  }
+
+  #ministryButtonSecond {
+    font-size: 12px;
+    padding: 7px 25px;
+    margin-top: -15px;
+  }
+
+  .sermons h2 {
+    font-size: 65px;
+    line-height: 65px;
+  }
+  
+  .sermons p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  #sermonHeadphones {
+    width: 250px;
+    right: 75px;
+    top: 208px;
+  }
+}
+
+@media (min-width:601px) and (max-width:899px) {
+  header h1 {
+    margin-left: -20px;
+    font-size: 40px;
+    line-height: 40px;
+  }
+  
+  header p {
+    margin-left: -20px;
+    font-size: 9px;
+    line-height: 13.2px;
+  }
+  
+  .communityButton {
+    margin-left: -20px;
+    font-size: 9px;
+    padding: 9px 20px;
+  }
+  
+  .learnButton {
+    margin-left: -20px;
+    font-size: 9px;
+    padding: 10px 32px;
+  }
+
+  .homeWelcome h2,
+  .homeEvents h2,
+  .homeMinistries h2 {
+    font-size: 25px;
+  }
+  
+  .homeWelcome p,
+  .homeEvents p,
+  .homeMinistries p {
+    font-size: 10px;
+    line-height: 13.2px;
+    margin-top: 10px;
+  }
+
+  #disabledButton {
+    display: block;
+    margin: 0 auto;
+    font-size: 10px;
+    padding: 7px 20px;
+  }
+
+  #disabledButtonFirst {
+    font-size: 10px;
+    padding: 7px 20px;
+    display: block;
+    margin: -14px 0 0 auto;
+  }
+  
+  #activeButton {
+    font-size: 10px;
+    padding: 7px 15px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  #ministryButton {
+    font-size: 11px;
+    padding: 7px 20px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  #ministryButtonSecond {
+    font-size: 11px;
+    padding: 7px 20px;
+    margin-top: -15px;
+    display: block;
+    margin: -15px 0 0 auto;
+  }
+
+  .eventDescription h3,
+  .ministryDescription h3 {
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+  }
+
+  .sermons h2 {
+    font-size: 45px;
+    line-height: 45px;
+    text-align: center;
+  }
+  
+  .sermons p {
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+  }
+
+  .sermons button {
+    font-size: 14px;
+    line-height: 17.2px;
+    padding: 12px 40px;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width:600px) {
+.AppHeader {
+    margin: 40px 20px;
+  }
+
+  .heroText {
+    padding-left: 0;
+  }
+
+  header h1 {
+    text-align: center;
+    font-size: 50px;
+    line-height: 60px;
+    margin: 30px;
+  }
+  
+  header p {
+    text-align: center;
+    font-size: 9px;
+    line-height: 13.2px;
+  }
+  
+  .communityButton {
+    font-size: 10px;
+    padding: 9px 20px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .learnButton {
+    font-size: 10px;
+    padding: 10px 32px;
+    display: block;
+    margin: 20px auto;
+  }
+  
+    .homeWelcome h2,
+    .homeEvents h2,
+    .homeMinistries h2 {
+      font-size: 25px;
+    }
+  
+    .homeWelcome p,
+    .homeEvents p,
+    .homeMinistries p {
+      font-size: 10px;
+      line-height: 13.2px;
+      margin-top: 10px;
+    }
+  
+    .eventDescription h3,
+    .ministryDescription h3 {
+      font-size: 14px;
+      line-height: 15px;
+      text-align: center;
+    }
+
+    .eventDescription, .ministryDescription {
+      margin-bottom: 40px;
+    }
+
+    .homeWelcome {
+      padding: 40px;
+      margin: 20px;
+    }
+
+    .homeEvents {
+      padding: 40px;
+      margin-bottom: 40px;
+      margin-top: 50px;
+    }
+
+    .homeMinistries {
+      padding: 40px;
+      margin-bottom: 10px;
+      margin-top: -40px;
+    }
+
+  
+    #disabledButton {
+      display: block;
+      margin: -15px auto;
+      font-size: 10px;
+      padding: 7px 20px;
+    }
+  
+    #disabledButtonFirst {
+      font-size: 10px;
+      padding: 7px 20px;
+      display: block;
+      margin: -15px auto;
+    }
+  
+    #activeButton {
+      font-size: 10px;
+      padding: 7px 15px;
+      display: block;
+      margin: -15px auto;
+    }
+  
+    #ministryButton {
+      font-size: 11px;
+      padding: 7px 20px;
+      display: block;
+      margin: -15px auto;
+    }
+  
+    #ministryButtonSecond {
+      font-size: 11px;
+      padding: 7px 20px;
+      margin-top: -15px;
+      display: block;
+      margin: -15px auto;
+    }
+  
+    .sermons h2 {
+      font-size: 40px;
+      line-height: 40px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    .sermons p {
+      font-size: 10px;
+      line-height: 16px;
+      text-align: center;
+    }
+  
+    .sermons button {
+      font-size: 12px;
+      line-height: 15.2px;
+      padding: 12px 30px;
+      display: block;
+      margin: 0 auto;
     }
 }

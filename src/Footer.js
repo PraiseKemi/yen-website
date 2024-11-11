@@ -14,17 +14,17 @@ export default function Footer() {
             <div className='footerInside'>
               <div className='container'>
                 <div className='row'>
-                    <div className='col-6 col-md-3'>
+                    <div className='col-12 col-md-3'>
                         <img src={logo} alt='YEN logo' className='yenLogo img-fluid' />
                     </div>
-                    <div className='col-3 col-md-2'>
+                    <div className='col-12 col-md-2' id='footerSection'>
                         <h3>About us</h3>
                         <ul>
                             <li><a href='#'>Who we are</a></li>
                             <li><a href='#'>Leadership</a></li>
                         </ul>
                     </div>
-                    <div className='col-3 col-md-2'>
+                    <div className='col-12 col-md-2' id='footerSection'>
                         <h3>Ministries</h3>
                         <ul>
                             <li><a>Young Ecclesia Worship</a></li>
@@ -32,7 +32,7 @@ export default function Footer() {
                             <li><a href='#'>MOG Channel</a></li>
                         </ul>
                     </div>
-                    <div className='col-6 col-md-2'>
+                    <div className='col-12 col-md-2' id='socials'>
                         <h3>Connect with us</h3>
                             <a href='https://www.instagram.com/weareyen/' target='_blank' rel='noreferrer'>
                                 <img src={instagramLogo} alt='instagram' />
@@ -44,7 +44,7 @@ export default function Footer() {
                                 <img src={twitterLogo} alt='twitter' />
                             </a>
                     </div>
-                    <div className='col-6 col-md-3'>
+                    <div className='col-12 col-md-3' id='subscribeForm'>
                         <h3 id='subscribe'>Subscribe to our newsletter</h3>
                         <EmailForm />    
                     </div>

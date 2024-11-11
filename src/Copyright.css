@@ -15,3 +15,9 @@
     margin: 40px 0 -35px 0;
     padding: 16px 0;
 }
+
+@media (max-width:600px) {
+    .Copyright {
+        font-size: 11px;
+    }
+}

@@ -28,7 +28,7 @@ export default function App() {
               </a>
             </div>
             <div className="heroImage col-md-6">
-              <img src={heroimage} alt="girls praying" className="img-fluid float-end" />
+              <img src={heroimage} alt="girls praying" className="img-fluid d-none d-md-block float-end" />
             </div>
           </div>
       </header>
@@ -47,34 +47,34 @@ export default function App() {
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
         <div className="container">
         <div className="row gx-5 eventListing">
-          <div className="col-sm-4">
+          <div className="col-md-4">
             <img src={eventsimage} alt="YEN event" className="img-fluid" />
               <div className="eventDescription">
                 <h3>Young Ministers Conference</h3>
                 <a href='#' target='_blank' rel="noreferrer">
-                  <button id="disabledButton">UPCOMING</button>
+                  <button id="disabledButtonFirst">UPCOMING</button>
                 </a>
-                <img src={blueball} alt="blue ball" className="img-fluid" id="firstBall" />
+                <img src={blueball} alt="blue ball" className="img-fluid d-none d-lg-block" id="firstBall" />
             </div>
           </div>
-          <div className="col-sm-4">
+          <div className="col-md-4">
             <img src={eventsimage} alt="YEN event" className="img-fluid" />
               <div className="eventDescription">
                 <h3>Summer Camp 2025</h3>
-                <img src={orangeball} alt="orange ball" className="img-fluid" id="secondBall" />
+                <img src={orangeball} alt="orange ball" className="img-fluid d-none d-lg-block" id="secondBall" />
                 <a href='#' target='_blank' rel="noreferrer">
                   <button id="disabledButton">UPCOMING</button>
                 </a>
             </div>
           </div>
-          <div className="col-sm-4">
+          <div className="col-md-4">
             <img src={eventsimage} alt="YEN event" className="img-fluid" />
               <div className="eventDescription">
                 <h3>School of Hard Knox</h3>
                 <a href='https://www.google.com' target='_blank' rel="noreferrer">
                   <button id="activeButton">READ MORE</button>
                 </a>
-                <img src={blueball} alt="blue ball" className="img-fluid" id="thirdBall" />
+                <img src={blueball} alt="blue ball" className="img-fluid d-none d-lg-block" id="thirdBall" />
             </div>
           </div>
           </div>
@@ -88,7 +88,7 @@ export default function App() {
           consectetur adipiscing elit, sed do eiusmod tempor
         </p>
         <a href='https://www.google.com' target='_blank' rel="noreferrer"><button>Listen now</button></a>
-        <img src={headphones} alt='headphones' className='img-fluid' id='sermonHeadphones' />
+        <img src={headphones} alt='headphones' className='img-fluid d-none d-lg-block' id='sermonHeadphones' />
       </section>
 
       <section className="homeMinistries">
@@ -96,34 +96,34 @@ export default function App() {
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
         <div className="container">
         <div className="row gx-5 ministryListing">
-          <div className="col-sm-4">
+          <div className="col-md-4">
             <img src={eventsimage} alt="YEN event" className="img-fluid" />
               <div className="ministryDescription">
                 <h3>Ecclesia Queens</h3>
                 <a href='https://www.google.com' target='_blank' rel="noreferrer">
                   <button id="ministryButton">Read more</button>
                 </a>
-                <img src={blueball} alt="blue ball" className="img-fluid" id="firstBallTwo" />
+                <img src={blueball} alt="blue ball" className="img-fluid d-none d-lg-block" id="firstBallTwo" />
             </div>
           </div>
-          <div className="col-sm-4">
+          <div className="col-md-4">
             <img src={eventsimage} alt="YEN event" className="img-fluid" />
               <div className="ministryDescription">
                 <h3>Young Ecclesia Worship</h3>
-                <img src={orangeball} alt="orange ball" className="img-fluid" id="secondBallTwo" />
+                <img src={orangeball} alt="orange ball" className="img-fluid d-none d-lg-block" id="secondBallTwo" />
                 <a href='https://www.google.com' target='_blank' rel="noreferrer">
-                  <button id="ministryButton">Read more</button>
+                  <button id="ministryButtonSecond">Read more</button>
                 </a>
             </div>
           </div>
-          <div className="col-sm-4">
+          <div className="col-md-4">
             <img src={eventsimage} alt="YEN event" className="img-fluid" />
               <div className="ministryDescription">
                 <h3>School of Hard Knox</h3>
                 <a href='#' target='_blank' rel="noreferrer">
                   <button id="disabledButton">UPCOMING</button>
                 </a>
-                <img src={blueball} alt="blue ball" className="img-fluid" id="thirdBallTwo" />
+                <img src={blueball} alt="blue ball" className="img-fluid d-none d-lg-block" id="thirdBallTwo" />
             </div>
           </div>
           </div>

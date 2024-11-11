@@ -11,7 +11,7 @@ export default function Partner() {
           consectetur adipiscing elit, sed do eiusmod tempor
         </p>
         <a href='https://www.google.com' target='_blank' rel="noreferrer"><button>Give</button></a>
-        <img src={heart} alt='heart' className='img-fluid' id='partnerHeart' />
+        <img src={heart} alt='heart' className='img-fluid d-none d-lg-block' id='partnerHeart' />
         </div>
     )
 }
