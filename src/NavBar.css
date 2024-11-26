@@ -1,0 +1,62 @@
+:root {
+    --primary-font: "Luckiest Guy", cursive;
+    --secondary-font: "Bitter", serif;
+    --primary-color: #232528;
+    --secondary-color: #0834C4;
+    --highlight-color: #FF6F00;
+}
+
+nav {
+    background-color: white;
+    font-family: var(--secondary-font);
+}
+
+.container-fluid {
+    padding: 0 77px;
+}
+
+.nav-link {
+    font-weight: 400;
+    font-size: 14px;
+    margin-right: 55px;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.nav-link:focus {
+    color: var(--highlight-color);
+    font-weight: 700;
+}
+
+.active-link {
+    color: var(--highlight-color);
+    font-weight: 700;
+}
+
+.yenBlueLogo {
+    width: 130px;
+    height: 65.1px;
+}
+
+.nav-button {
+    background-color: var(--secondary-color);
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    color: white;
+    border: 1px solid var(--secondary-color);
+    border-radius: 20px;
+    padding: 8px 29px;
+}
+
+@media (min-width:900px) and (max-width:1290px) {
+    .nav-link {
+        font-size: 12px;
+        margin-right: 25px;
+    }
+}
+
+@media (max-width:899px) {
+    .container-fluid {
+        padding: 0 20px;
+    }
+}

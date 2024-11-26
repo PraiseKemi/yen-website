@@ -1,0 +1,254 @@
+:root {
+    --primary-font: "Luckiest Guy", cursive;
+    --secondary-font: "Bitter", serif;
+    --primary-color: #232528;
+    --secondary-color: #0834C4;
+    --highlight-color: #FF6F00;
+}
+
+.WhoWeAre {
+    background: white;
+}
+
+.aboutHeader {
+    padding: 120px 0;
+    background-color: #EAF6FF;
+    position: relative;
+    z-index: 1;
+}
+
+.aboutHeader h1 {
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+    margin-left: 88px;
+}
+
+.highlight {
+    color: var(--highlight-color);
+}
+
+.aboutUs {
+    padding: 90px 200px;
+    text-align: center;
+}
+
+.aboutUs h2 {
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    color: var(--primary-color);
+}
+
+.aboutUs p {
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+}
+
+.founders {
+    padding: 20px 190px;
+}
+
+.aboutFounderOne {
+    margin-top: 14%;
+    padding-left: 45px;
+}
+
+.aboutFounderOne h3 {
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    color: var(--primary-color);
+}
+
+.aboutFounderOne p {
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    text-align: justify;
+}
+
+.aboutFounderTwo {
+    text-align: end;
+    margin-top: 12%;
+    padding-right: 45px;
+}
+
+.aboutFounderTwo h3 {
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    color: var(--primary-color);
+}
+
+.aboutFounderTwo p {
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    text-align: justify;
+}
+
+.partnerBlue {
+    padding-bottom: 50px;
+}
+
+#aboutFirstBall {
+    width: 72px;
+    position: absolute;
+    left: 110px;
+    top: 350px;
+    z-index: 0;
+}
+
+#aboutSecondBall {
+    position: absolute;
+    left: 1054px;
+    top: 75px;
+}
+
+#aboutThirdBall {
+    width: 150px;
+    position: absolute;
+    right: 260px;
+    top: 190px;
+}
+
+#founderImage {
+    position: relative;
+    bottom: 60px;
+}
+
+@media (min-width:900px) and (max-width:1290px) {
+    .aboutHeader h1 {
+        font-size: 50px;
+        line-height: 50px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .aboutUs h2 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .aboutUs p {
+        font-size: 14px;
+        line-height: 17.2px;
+        text-align: justify;
+    }
+
+    .aboutFounderOne {
+        margin-top: 0;
+    }
+
+    .aboutFounderOne h3 {
+        font-size: 24px;
+        line-height: 24px;
+    }
+    
+    .aboutFounderOne p {
+        font-size: 14px;
+        line-height: 17.2px;
+    }
+    
+    .aboutFounderTwo {
+        text-align: end;
+        margin-top: 12%;
+        padding-right: 45px;
+    }
+    
+    .aboutFounderTwo h3 {
+        font-size: 24px;
+        line-height: 24px;
+    }
+    
+    .aboutFounderTwo p {
+        font-size: 14px;
+        line-height: 17.2px;
+    }
+    
+    #aboutSecondBall {
+        left: 750px;
+        top: 75px;
+    }
+    
+    #aboutThirdBall {
+        width: 130px;
+        right: 70px;
+        top: 200px;
+    }
+
+    #founderImage {
+        position: relative;
+        bottom: -40px;
+    }
+}
+
+@media (max-width:899px) {
+    .aboutUs {
+        padding: 90px 60px;
+        text-align: center;
+    }
+
+    .aboutHeader {
+        padding: 60px 0;
+    }
+
+    .aboutHeader h1 {
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+        margin: 0;
+    }
+    
+    .aboutUs h2 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    
+    .aboutUs p {
+        font-size: 12px;
+        line-height: 15.2px;
+        text-align: justify;
+    }
+
+    .founders {
+        padding: 20px 50px;
+    }
+    
+    .aboutFounderOne {
+        margin-top: 0;
+        padding: 0;
+    }
+    
+    .aboutFounderOne h3 {
+        font-size: 24px;
+        line-height: 24px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .aboutFounderTwo {
+        text-align: center;
+        padding: 0;
+    }
+    
+    .aboutFounderTwo h3 {
+        font-size: 24px;
+        line-height: 24px;
+    }
+    
+    #founderImage {
+            bottom: 0;
+            margin-bottom: 40px;
+    }
+}

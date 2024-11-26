@@ -210,14 +210,14 @@ header a {
 #secondBall {
   position: absolute;
   left: 880px;
-  top: 2065px;
+  top: 2155px;
 }
 
 #thirdBall {
   width: 150px;
   position: absolute;
   right: 113px;
-  top: 2398px;
+  top: 2480px;
   z-index: -1;
 }
 
@@ -231,21 +231,21 @@ header a {
 #secondBallTwo {
   position: absolute;
   left: 880px;
-  top: 3215px;
+  top: 3307px;
 }
 
 #thirdBallTwo {
   width: 150px;
   position: absolute;
   right: 112px;
-  top: 3552px;
+  top: 3632px;
   z-index: -1;
 }
 
 #sermonHeadphones {
   position: absolute;
   right: 114px;
-  top: 2632px;
+  top: 2723px;
 }
 
 #ministryButton {

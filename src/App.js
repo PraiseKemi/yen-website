@@ -1,7 +1,10 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Partner from "./Partner";
 import Footer from "./Footer";
+import NavBar from './NavBar';
+import WhoWeAre from './WhoWeAre';
 import heroimage from "./images/home-hero-section.png";
 import welcomeimage from "./images/home-welcome-section.svg";
 import eventsimage from "./images/events-image.svg";
@@ -11,9 +14,16 @@ import headphones from "./images/home-sermons-headphones.svg";
 
 export default function App() {
   return (
+    <Router>
     <div className="App">
-      <header className="AppHeader">
-          <div className="row g-0">
+      <NavBar />
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <>
+                <header className="AppHeader">
+                  <div className="row g-0">
             <div className="heroText col-md-6">
               <h1>IGNITING THE YOUNG FOR <span className="highlight">CHRIST</span></h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -133,10 +143,18 @@ export default function App() {
       <section>
         <Partner />
       </section>
+              
+     </>
+    }
+  />
+      <Route path="/who-we-are" element={<WhoWeAre />} />
+      </Routes>                
 
       <footer>
         <Footer />
       </footer>
+           
     </div>
+    </Router>  
   );
 }

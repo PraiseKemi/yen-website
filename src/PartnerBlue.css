@@ -1,0 +1,125 @@
+:root {
+    --primary-font: "Luckiest Guy", cursive;
+    --secondary-font: "Bitter", serif;
+    --primary-color: #232528;
+    --secondary-color: #0834C4;
+    --highlight-color: #FF6F00;
+}
+
+.PartnerBlue {
+    max-width: 85%;
+    background: #EAF6FF;
+    border-radius: 12px;
+    margin: 40px auto;
+    padding: 70px;
+}
+
+.PartnerBlue h2 {
+    font-family: var(--primary-font);
+    font-size: 90px;
+    color: var(--primary-color);
+    line-height: 90px;
+}
+
+.PartnerBlue p {
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    color: var(--primary-color);
+    line-height: 24px;
+    margin-bottom: 34px;
+}
+
+.PartnerBlue a {
+    text-decoration: none;
+}
+
+.PartnerBlue button {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19.2px;
+    padding: 12px 72px;
+    background: var(--secondary-color);
+    color: white;
+    border: 1px solid var(--secondary-color);
+    border-radius: 20px;
+}
+
+.PartnerBlue button:hover {
+    background: white;
+    color: var(--secondary-color);
+    transition: all ease-in-out 200ms;
+}
+
+#partnerBlueHeart {
+    position: absolute;
+    right: 123px;
+    top: 2439px;
+}
+
+@media (min-width:768px) and (max-width:1289px) {
+    .PartnerBlue h2 {
+        font-size: 65px;
+        line-height: 65px;
+    }
+
+    .PartnerBlue p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    #partnerBlueHeart {
+        width: 330px;
+        right: 90px;
+        top: 2015px;
+    }
+}
+
+@media (min-width:600px) and (max-width:899px) {
+    .PartnerBlue h2 {
+        font-size: 45px;
+        line-height: 45px;
+        text-align: center;
+    }
+
+    .PartnerBlue p {
+        font-size: 12px;
+        line-height: 16px;
+        text-align: center;
+    }
+
+    .PartnerBlue button {
+        font-size: 14px;
+        line-height: 17.2px;
+        padding: 12px 40px;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:600px) {
+    .PartnerBlue {
+        margin: 20px auto;
+    }
+
+    .PartnerBlue h2 {
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .PartnerBlue p {
+        font-size: 10px;
+        line-height: 16px;
+        text-align: center;
+    }
+
+    .PartnerBlue button {
+        font-size: 12px;
+        line-height: 15.2px;
+        padding: 12px 30px;
+        display: block;
+        margin: 0 auto;
+    }
+}
