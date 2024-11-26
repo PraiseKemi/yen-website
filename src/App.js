@@ -5,6 +5,7 @@ import Partner from "./Partner";
 import Footer from "./Footer";
 import NavBar from './NavBar';
 import WhoWeAre from './WhoWeAre';
+import Ministries from './Ministries';
 import heroimage from "./images/home-hero-section.png";
 import welcomeimage from "./images/home-welcome-section.svg";
 import eventsimage from "./images/events-image.svg";
@@ -147,7 +148,8 @@ export default function App() {
      </>
     }
   />
-      <Route path="/who-we-are" element={<WhoWeAre />} />
+          <Route path="/who-we-are" element={<WhoWeAre />} />
+          <Route path="/ministries" element={<Ministries />} />
       </Routes>                
 
       <footer>

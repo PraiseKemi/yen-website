@@ -23,7 +23,7 @@ export default function NavBar() {
                                 <NavLink to='/who-we-are' className={({ isActive }) => (isActive ? 'nav-link active-link' : 'nav-link')}>Who we are</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink to='/who-we-are' className={({ isActive }) => (isActive ? 'nav-link active-link' : 'nav-link')}>Ministries</NavLink>
+                                <NavLink to='/ministries' className={({ isActive }) => (isActive ? 'nav-link active-link' : 'nav-link')}>Ministries</NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink to='/who-we-are' className={({ isActive }) => (isActive ? 'nav-link active-link' : 'nav-link')}>Partner with us</NavLink>

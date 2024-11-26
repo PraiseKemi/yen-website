@@ -1,0 +1,299 @@
+:root {
+    --primary-font: "Luckiest Guy", cursive;
+    --secondary-font: "Bitter", serif;
+    --primary-color: #232528;
+    --secondary-color: #0834C4;
+    --highlight-color: #FF6F00;
+}
+
+.Ministries {
+    background: white;
+}
+
+.ministriesHeader {
+    padding: 120px 0;
+    background-color: #EAF6FF;
+    position: relative;
+    z-index: 1;
+}
+
+.ministriesHeader h1 {
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+    margin-left: 88px;
+}
+
+.highlight {
+    color: var(--highlight-color);
+}
+
+.ministryArms {
+    padding: 90px 180px;
+}
+
+.ministryArms a {
+    text-decoration: none;
+}
+
+.ministryArmOne {
+    padding-left: 70px;
+    display: block;
+    align-content: center;
+}
+
+.ministryArmOne p {
+    font-family: var(--secondary-font);
+    font-size: 16px;
+    line-height: 19.2px;
+    font-weight: 400;
+}
+
+.ministryArmTwo {
+    padding-right: 70px;
+    display: block;
+    align-content: center;
+}
+
+.ministryArmTwo p {
+    font-family: var(--secondary-font);
+    font-size: 16px;
+    line-height: 19.2px;
+    font-weight: 400;
+    text-align: right;
+}
+
+.ministryButton {
+    background: var(--secondary-color);
+    font-family: var(--secondary-font);
+    font-size: 16px;
+    line-height: 19.2px;
+    color: white;
+    border: 1px solid var(--secondary-color);
+    border-radius: 20px;
+    padding: 14px 29px;
+}
+
+.ministryButton:hover {
+    background: white;
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    transition: all ease-in-out 200ms;
+}
+
+.ministryButtonTwo {
+    background: var(--secondary-color);
+    font-family: var(--secondary-font);
+    font-size: 16px;
+    line-height: 19.2px;
+    color: white;
+    border: 1px solid var(--secondary-color);
+    border-radius: 20px;
+    padding: 14px 29px;
+    display: flex;
+    justify-self: end;
+}
+
+.ministryButtonTwo:hover {
+    background: white;
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    transition: all ease-in-out 200ms;
+}
+
+.ministryTitleOne {
+    font-family: var(--primary-font);
+    color: white;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: -90px;
+}
+
+.ministryTitleTwo {
+    font-family: var(--primary-font);
+    color: white;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: -140px;
+}
+
+.ministryArmOneSection {
+    margin-bottom: 120px;
+    position: relative;
+    z-index: 1;
+}
+
+.ministryArmTwoSection {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 50px;
+}
+
+#ministriesFirstBall {
+    width: 72px;
+    position: absolute;
+    left: 110px;
+    top: 360px;
+    z-index: 0;
+}
+
+#ministriesSecondBall {
+    position: absolute;
+    left: 1054px;
+    top: 75px;
+}
+
+#ministriesThirdBall {
+    width: 150px;
+    position: absolute;
+    right: 260px;
+    top: 190px;
+}
+
+#orangeLine {
+    position: absolute;
+    left: 610px;
+    top: 735px;
+    z-index: 0;
+}
+
+@media (min-width:900px) and (max-width:1290px) {
+    .ministriesHeader h1 {
+        font-size: 50px;
+        line-height: 50px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .ministryArms {
+        padding: 90px 100px;
+    }
+
+    .ministryArmOne p {
+        font-size: 14px;
+        line-height: 17.2px;
+    }
+
+    .ministryArmTwo p {
+        font-size: 14px;
+        line-height: 17.2px;
+    }
+
+    .ministryButton {
+        font-size: 14px;
+        line-height: 17.2px;
+        padding: 14px 20px;
+    }
+
+    .ministryButtonTwo {
+        font-size: 14px;
+        line-height: 17.2px;
+        padding: 14px 20px;
+    }
+
+    .ministryTitleOne {
+        font-size: 30px;
+        line-height: 33px;
+        margin-top: -70px;
+    }
+
+    .ministryTitleTwo {
+        font-size: 30px;
+        line-height: 33px;
+        margin-top: -110px;
+    }
+    
+    #ministriesSecondBall {
+        left: 780px;
+        top: 75px;
+    }
+    
+    #ministriesThirdBall {
+        width: 130px;
+        right: 50px;
+        top: 200px;
+    }
+
+    #orangeLine {
+        position: absolute;
+        left: 350px;
+        top: 660px;
+        z-index: 0;
+        transform: rotate(20deg);
+    }
+}
+
+@media (max-width:899px) {
+    .ministriesHeader {
+        padding: 80px 0;
+    }
+
+    .ministriesHeader h1 {
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .ministryArms {
+        padding: 60px 40px;
+    }
+
+    .ministryArmOne {
+        padding: 20px;
+        margin-bottom: -70px;
+    }
+    
+    .ministryArmOne p {
+        font-size: 14px;
+        line-height: 17.2px;
+        text-align: justify;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    
+    .ministryArmTwo {
+        padding: 20px;
+    }
+    
+    .ministryArmTwo p {
+        font-size: 14px;
+        line-height: 17.2px;
+        text-align: justify;
+        margin-bottom: 40px;
+    }
+
+    .ministryButton {
+        font-size: 13px;
+        line-height: 16.2px;
+        padding: 14px 20px;
+        display: flex;
+        justify-self: center;
+    }
+    
+    .ministryButtonTwo {
+        font-size: 13px;
+        line-height: 16.2px;
+        padding: 14px 20px;
+        justify-self: center;
+        margin-bottom: 20px;
+    }
+
+    .ministryTitleOne {
+        font-size: 28px;
+        line-height: 31px;
+        margin-top: -70px;
+    }
+    
+    .ministryTitleTwo {
+        font-size: 28px;
+        line-height: 31px;
+        margin-top: -90px;
+    }
+}
