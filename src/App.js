@@ -31,10 +31,10 @@ export default function App() {
                 <br />
                 eiusmod tempor incididunt ut labore et dolore magna aliqua
               </p>
-              <a href='https://www.google.com' target='_blank' rel="noreferrer">
+              <a href='https://www.instagram.com/weareyen/' target='_blank' rel="noreferrer">
                 <button className="communityButton">Join Community</button>
               </a>
-              <a href='https://www.google.com' target='_blank' rel="noreferrer">
+              <a href='/who-we-are' rel="noreferrer">
                 <button className="learnButton">Learn more</button>
               </a>
             </div>
@@ -62,9 +62,7 @@ export default function App() {
             <img src={eventsimage} alt="YEN event" className="img-fluid" />
               <div className="eventDescription">
                 <h3>Young Ministers Conference</h3>
-                <a href='#' target='_blank' rel="noreferrer">
-                  <button id="disabledButtonFirst">UPCOMING</button>
-                </a>
+                <button id="disabledButtonFirst">UPCOMING</button>
                 <img src={blueball} alt="blue ball" className="img-fluid d-none d-lg-block" id="firstBall" />
             </div>
           </div>
@@ -73,17 +71,15 @@ export default function App() {
               <div className="eventDescription">
                 <h3>Summer Camp 2025</h3>
                 <img src={orangeball} alt="orange ball" className="img-fluid d-none d-lg-block" id="secondBall" />
-                <a href='#' target='_blank' rel="noreferrer">
-                  <button id="disabledButton">UPCOMING</button>
-                </a>
+                <button id="disabledButton">UPCOMING</button>
             </div>
           </div>
           <div className="col-md-4">
             <img src={eventsimage} alt="YEN event" className="img-fluid" />
               <div className="eventDescription">
                 <h3>School of Hard Knox</h3>
-                <a href='https://www.google.com' target='_blank' rel="noreferrer">
-                  <button id="activeButton">READ MORE</button>
+                <a href='https://selar.co/sohk' target='_blank' rel='noreferrer'>
+                  <button id="activeButton">READ MORE</button>          
                 </a>
                 <img src={blueball} alt="blue ball" className="img-fluid d-none d-lg-block" id="thirdBall" />
             </div>
@@ -98,7 +94,7 @@ export default function App() {
           <br />
           consectetur adipiscing elit, sed do eiusmod tempor
         </p>
-        <a href='https://www.google.com' target='_blank' rel="noreferrer"><button>Listen now</button></a>
+        <a href='https://creators.spotify.com/pod/show/mogchannel' target='_blank' rel="noreferrer"><button>Listen now</button></a>
         <img src={headphones} alt='headphones' className='img-fluid d-none d-lg-block' id='sermonHeadphones' />
       </section>
 
@@ -111,7 +107,7 @@ export default function App() {
             <img src={eventsimage} alt="YEN event" className="img-fluid" />
               <div className="ministryDescription">
                 <h3>Ecclesia Queens</h3>
-                <a href='https://www.google.com' target='_blank' rel="noreferrer">
+                <a href='/ministries#ministryArmOneSection' rel="noreferrer">
                   <button id="ministryButton">Read more</button>
                 </a>
                 <img src={blueball} alt="blue ball" className="img-fluid d-none d-lg-block" id="firstBallTwo" />
@@ -122,7 +118,7 @@ export default function App() {
               <div className="ministryDescription">
                 <h3>Young Ecclesia Worship</h3>
                 <img src={orangeball} alt="orange ball" className="img-fluid d-none d-lg-block" id="secondBallTwo" />
-                <a href='https://www.google.com' target='_blank' rel="noreferrer">
+                <a href='/ministries#ministryArmTwoSection' rel="noreferrer">
                   <button id="ministryButtonSecond">Read more</button>
                 </a>
             </div>
@@ -131,9 +127,7 @@ export default function App() {
             <img src={eventsimage} alt="YEN event" className="img-fluid" />
               <div className="ministryDescription">
                 <h3>School of Hard Knox</h3>
-                <a href='#' target='_blank' rel="noreferrer">
                   <button id="disabledButton">UPCOMING</button>
-                </a>
                 <img src={blueball} alt="blue ball" className="img-fluid d-none d-lg-block" id="thirdBallTwo" />
             </div>
           </div>

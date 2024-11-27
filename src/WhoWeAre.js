@@ -1,4 +1,6 @@
 import React from 'react';
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import './WhoWeAre.css';
 import PartnerBlue from './PartnerBlue';
 import blueball from "./images/blue-ball.svg";
@@ -7,6 +9,18 @@ import pictureCollage from './images/yen-picture-collage.svg';
 import founderOne from './images/founder-one.svg';
 
 export default function WhoWeAre() {
+
+    const location = useLocation();
+    
+    useEffect(() => {
+    if (location.hash) {
+      const element = document.querySelector(location.hash);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+    }, [location]);
+    
     return (
         <div className='WhoWeAre'>
             <header className='aboutHeader'>
@@ -38,7 +52,7 @@ export default function WhoWeAre() {
                 <img src={pictureCollage} alt='collage' className='img-fluid mt-4' />
             </section>
 
-            <section className='founders'>
+            <section className='founders' id='founders'>
                 <div className='container'>
                     <div className='row'>
                         <div className='col-md-5'>
