@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './App.css';
 import Partner from "./Partner";
 import Footer from "./Footer";
@@ -34,9 +35,9 @@ export default function App() {
               <a href='https://www.instagram.com/weareyen/' target='_blank' rel="noreferrer">
                 <button className="communityButton">Join Community</button>
               </a>
-              <a href='/who-we-are' rel="noreferrer">
+              <Link to="/who-we-are">
                 <button className="learnButton">Learn more</button>
-              </a>
+              </Link>
             </div>
             <div className="heroImage col-md-6">
               <img src={heroimage} alt="girls praying" className="img-fluid d-none d-md-block float-end" />
@@ -107,9 +108,9 @@ export default function App() {
             <img src={eventsimage} alt="YEN event" className="img-fluid" />
               <div className="ministryDescription">
                 <h3>Ecclesia Queens</h3>
-                <a href='/ministries#ministryArmOneSection' rel="noreferrer">
+                <Link to='/ministries#ministryArmOneSection'>
                   <button id="ministryButton">Read more</button>
-                </a>
+                </Link>
                 <img src={blueball} alt="blue ball" className="img-fluid d-none d-lg-block" id="firstBallTwo" />
             </div>
           </div>
@@ -118,9 +119,9 @@ export default function App() {
               <div className="ministryDescription">
                 <h3>Young Ecclesia Worship</h3>
                 <img src={orangeball} alt="orange ball" className="img-fluid d-none d-lg-block" id="secondBallTwo" />
-                <a href='/ministries#ministryArmTwoSection' rel="noreferrer">
+                <Link to='/ministries#ministryArmTwoSection'>
                   <button id="ministryButtonSecond">Read more</button>
-                </a>
+                </Link>
             </div>
           </div>
           <div className="col-md-4">

@@ -20,10 +20,10 @@ export default function WhoWeAre() {
       }
     }
     }, [location]);
-    
+
     return (
         <div className='WhoWeAre'>
-            <header className='aboutHeader'>
+            <header className='aboutHeader' id='aboutHeader'>
                 <img src={orangeball} alt="blue ball" className="img-fluid d-none d-lg-block" id="aboutSecondBall" />
                 <h1>
                     WHO WE <span className='highlight'>ARE</span>

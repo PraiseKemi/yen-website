@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import "./Footer.css";
 import EmailForm from './EmailForm';
 import Copyright from './Copyright';
@@ -20,16 +21,16 @@ export default function Footer() {
                     <div className='col-12 col-md-2' id='footerSection'>
                         <h3>About us</h3>
                         <ul>
-                            <li><a href='/who-we-are' rel='noreferrer'>Who we are</a></li>
-                            <li><a href='/who-we-are#founders' rel='noreferrer'>Leadership</a></li>
+                            <li><Link to='/who-we-are#aboutHeader'>Who we are</Link></li>
+                            <li><Link to='/who-we-are#founders'>Leadership</Link></li>
                         </ul>
                     </div>
                     <div className='col-12 col-md-2' id='footerSection'>
                         <h3>Ministries</h3>
                         <ul>
-                            <li><a href='/ministries#ministryArmTwoSection' rel='noreferrer'>Young Ecclesia Worship</a></li>
-                            <li><a href='/ministries#ministryArmOneSection' rel='noreferrer'>Young Ecclesia Queens</a></li>
-                            <li><a href='https://creators.spotify.com/pod/show/mogchannel'>MOG Channel</a></li>
+                            <li><Link to='/ministries#ministryArmTwoSection'>Young Ecclesia Worship</Link></li>
+                            <li><Link to='/ministries#ministryArmOneSection'>Young Ecclesia Queens</Link></li>
+                            <li><a href='https://creators.spotify.com/pod/show/mogchannel' target='_blank' rel='noreferrer'>MOG Channel</a></li>
                         </ul>
                     </div>
                     <div className='col-12 col-md-2' id='socials'>
