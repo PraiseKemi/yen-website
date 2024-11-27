@@ -242,7 +242,7 @@
     }
 
     .ministryArms {
-        padding: 60px 40px;
+        padding: 60px 30px;
     }
 
     .ministryArmOne {
@@ -252,7 +252,7 @@
     
     .ministryArmOne p {
         font-size: 14px;
-        line-height: 17.2px;
+        line-height: 19.2px;
         text-align: justify;
         margin-top: 30px;
         margin-bottom: 40px;
@@ -264,7 +264,7 @@
     
     .ministryArmTwo p {
         font-size: 14px;
-        line-height: 17.2px;
+        line-height: 19.2px;
         text-align: justify;
         margin-bottom: 40px;
     }

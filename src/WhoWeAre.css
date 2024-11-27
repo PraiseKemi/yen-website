@@ -195,7 +195,7 @@
 
 @media (max-width:899px) {
     .aboutUs {
-        padding: 90px 60px;
+        padding: 90px 40px;
         text-align: center;
     }
 
@@ -204,7 +204,7 @@
     }
 
     .aboutHeader h1 {
-        font-size: 40px;
+        font-size: 45px;
         line-height: 40px;
         text-align: center;
         margin: 0;
@@ -216,13 +216,13 @@
     }
     
     .aboutUs p {
-        font-size: 12px;
-        line-height: 15.2px;
-        text-align: justify;
+        font-size: 15px;
+        line-height: 18.2px;
+        text-align: center;
     }
 
     .founders {
-        padding: 20px 50px;
+        padding: 20px 40px;
     }
     
     .aboutFounderOne {
@@ -236,6 +236,10 @@
         text-align: center;
         margin-top: 30px;
     }
+
+    .aboutFounderOne p {
+        font-size: 15px;
+    }
     
     .aboutFounderTwo {
         text-align: center;
@@ -245,6 +249,10 @@
     .aboutFounderTwo h3 {
         font-size: 24px;
         line-height: 24px;
+    }
+
+    .aboutFounderTwo p {
+        font-size: 15px;
     }
     
     #founderImage {
