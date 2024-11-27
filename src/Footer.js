@@ -21,15 +21,15 @@ export default function Footer() {
                     <div className='col-12 col-md-2' id='footerSection'>
                         <h3>About us</h3>
                         <ul>
-                            <li><Link to='/who-we-are#aboutHeader'>Who we are</Link></li>
+                            <li><Link to='/who-we-are#aboutUs'>Who we are</Link></li>
                             <li><Link to='/who-we-are#founders'>Leadership</Link></li>
                         </ul>
                     </div>
                     <div className='col-12 col-md-2' id='footerSection'>
                         <h3>Ministries</h3>
                         <ul>
-                            <li><Link to='/ministries#ministryArmTwoSection'>Young Ecclesia Worship</Link></li>
-                            <li><Link to='/ministries#ministryArmOneSection'>Young Ecclesia Queens</Link></li>
+                            <li><Link to='/ministries#youngEcclesiaWorship'>Young Ecclesia Worship</Link></li>
+                            <li><Link to='/ministries#ecclesiaQueens'>Young Ecclesia Queens</Link></li>
                             <li><a href='https://creators.spotify.com/pod/show/mogchannel' target='_blank' rel='noreferrer'>MOG Channel</a></li>
                         </ul>
                     </div>

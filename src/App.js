@@ -108,7 +108,7 @@ export default function App() {
             <img src={eventsimage} alt="YEN event" className="img-fluid" />
               <div className="ministryDescription">
                 <h3>Ecclesia Queens</h3>
-                <Link to='/ministries#ministryArmOneSection'>
+                <Link to='/ministries#ecclesiaQueens'>
                   <button id="ministryButton">Read more</button>
                 </Link>
                 <img src={blueball} alt="blue ball" className="img-fluid d-none d-lg-block" id="firstBallTwo" />
@@ -119,7 +119,7 @@ export default function App() {
               <div className="ministryDescription">
                 <h3>Young Ecclesia Worship</h3>
                 <img src={orangeball} alt="orange ball" className="img-fluid d-none d-lg-block" id="secondBallTwo" />
-                <Link to='/ministries#ministryArmTwoSection'>
+                <Link to='/ministries#youngEcclesiaWorship'>
                   <button id="ministryButtonSecond">Read more</button>
                 </Link>
             </div>

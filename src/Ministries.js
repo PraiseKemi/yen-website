@@ -34,7 +34,7 @@ export default function Ministries() {
 
             <section className='ministryArms'>
                 <div className='container'>
-                    <div className='row ministryArmOneSection' id='ministryArmOneSection'>
+                    <div className='row ministryArmOneSection' id='ecclesiaQueens'>
                         <div className='col-md-5'>
                             <img src={ecclesiaQueens} alt='ecclesia queens' className='img-fluid' />
                             <h3 className='mb-3 ministryTitleOne'>ECCLESIA QUEENS</h3>
@@ -58,7 +58,7 @@ export default function Ministries() {
                         </div>
                     </div>
                     <img src={orangeLine} alt='line' className='img-fluid d-none d-lg-block' id='orangeLine' />
-                    <div className='row mt-5 ministryArmTwoSection' id='ministryArmTwoSection'>
+                    <div className='row mt-5 ministryArmTwoSection' id='youngEcclessiaWorship'>
                         <div className='col-md-7 ministryArmTwo'>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor

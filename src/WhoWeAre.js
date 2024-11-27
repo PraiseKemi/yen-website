@@ -23,7 +23,7 @@ export default function WhoWeAre() {
 
     return (
         <div className='WhoWeAre'>
-            <header className='aboutHeader' id='aboutHeader'>
+            <header className='aboutHeader' id='aboutUs'>
                 <img src={orangeball} alt="blue ball" className="img-fluid d-none d-lg-block" id="aboutSecondBall" />
                 <h1>
                     WHO WE <span className='highlight'>ARE</span>
