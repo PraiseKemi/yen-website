@@ -75,9 +75,10 @@ export default function SummerCamp() {
                     </div>
                 </div>
             </section>
+            <hr className='secondLine' />
 
             <section className='Faqs'>
-                <hr className='line' />
+                <h1>FREQUENTLY ASKED QUESTIONS</h1>
             </section>
         </div>
     )

@@ -7,7 +7,7 @@
 }
 
 iframe {
-    width: 600px; 
+    width: 700px; 
     height: 450px; 
     border: 0;
 }
@@ -81,8 +81,29 @@ iframe {
     width: 100%;
 }
 
+.secondLine {
+    border-bottom: 3px solid #7a7a7c;
+    padding-top: 10px;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
 .contact img {
     margin-right: 10px;
+}
+
+.Faqs {
+    width: 80%;
+}
+
+.Faqs h1 {
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 48px;
+    color: #232528;
+    margin-left: 120px;
+    padding: 70px 0;
 }
 
 #aboutFirstBall {
