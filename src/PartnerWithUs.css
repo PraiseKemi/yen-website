@@ -1,0 +1,136 @@
+:root {
+    --primary-font: "Luckiest Guy", cursive;
+    --secondary-font: "Bitter", serif;
+    --primary-color: #232528;
+    --secondary-color: #0834C4;
+    --highlight-color: #FF6F00;
+}
+
+.PartnerWithUs {
+    background: white;
+}
+
+.partnerHeader {
+    padding: 120px 0;
+    background-color: #EAF6FF;
+    position: relative;
+    z-index: 1;
+}
+
+.partnerHeader h1 {
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+    margin-left: 88px;
+}
+
+.highlight {
+    color: var(--highlight-color);
+}
+
+.giving {
+    padding: 70px 200px;
+    text-align: center;
+}
+
+.giving h2 {
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    color: var(--primary-color);
+}
+
+.giving p {
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+}
+
+.partnerBlue {
+    padding-bottom: 50px;
+}
+
+#aboutFirstBall {
+    width: 72px;
+    position: absolute;
+    left: 110px;
+    top: 345px;
+    z-index: 0;
+}
+
+#aboutSecondBall {
+    position: absolute;
+    left: 1054px;
+    top: 75px;
+}
+
+#aboutThirdBall {
+    width: 150px;
+    position: absolute;
+    right: 260px;
+    top: 190px;
+}
+
+@media (min-width:900px) and (max-width:1290px) {
+    .partnerHeader h1 {
+        font-size: 50px;
+        line-height: 50px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .giving h2 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .giving p {
+        font-size: 14px;
+        line-height: 17.2px;
+        text-align: justify;
+    }
+
+    #aboutSecondBall {
+        left: 780px;
+        top: 75px;
+    }
+
+    #aboutThirdBall {
+        width: 130px;
+        right: 50px;
+        top: 200px;
+    }
+}
+
+@media (max-width:899px) {
+    .giving {
+        padding: 90px 40px;
+        text-align: center;
+    }
+
+    .partnerHeader {
+        padding: 60px 0;
+    }
+
+    .partnerHeader h1 {
+        font-size: 35px;
+        line-height: 40px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .giving h2 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .giving p {
+        font-size: 14px;
+        line-height: 17.2px;
+        text-align: center;
+    }
+}

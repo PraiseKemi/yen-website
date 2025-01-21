@@ -1,0 +1,85 @@
+:root {
+    --primary-font: "Luckiest Guy", cursive;
+    --secondary-font: "Bitter", serif;
+    --primary-color: #232528;
+    --secondary-color: #0834C4;
+    --highlight-color: #FF6F00;
+}
+
+.SummerCamp {
+    background: white;
+}
+
+.summerCampHeader {
+    padding: 120px 0;
+    background-color: #EAF6FF;
+    position: relative;
+    z-index: 1;
+}
+
+.summerCampHeader h1 {
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+    margin-left: 88px;
+}
+
+.highlight {
+    color: var(--highlight-color);
+}
+
+#aboutFirstBall {
+    width: 72px;
+    position: absolute;
+    left: 110px;
+    top: 345px;
+    z-index: 0;
+}
+
+#aboutSecondBall {
+    position: absolute;
+    left: 1054px;
+    top: 75px;
+}
+
+#aboutThirdBall {
+    width: 150px;
+    position: absolute;
+    right: 260px;
+    top: 190px;
+}
+
+@media (min-width:900px) and (max-width:1290px) {
+    .summerCampHeader h1 {
+        font-size: 50px;
+        line-height: 50px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    #aboutSecondBall {
+        left: 780px;
+        top: 75px;
+    }
+
+    #aboutThirdBall {
+        width: 130px;
+        right: 50px;
+        top: 200px;
+    }
+}
+
+@media (max-width:899px) {
+    .summerCampHeader {
+        padding: 60px 0;
+    }
+
+    .summerCampHeader h1 {
+        font-size: 35px;
+        line-height: 40px;
+        text-align: center;
+        margin: 0;
+    }
+}

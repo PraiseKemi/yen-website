@@ -7,6 +7,8 @@ import Footer from "./Footer";
 import NavBar from './NavBar';
 import WhoWeAre from './WhoWeAre';
 import Ministries from './Ministries';
+import PartnerWithUs from './PartnerWithUs';
+import SummerCamp from './SummerCamp';
 import heroimage from "./images/home-hero-section.png";
 import welcomeimage from "./images/home-welcome-section.svg";
 import eventsimage from "./images/events-image.svg";
@@ -145,6 +147,8 @@ export default function App() {
   />
           <Route path="/who-we-are" element={<WhoWeAre />} />
           <Route path="/ministries" element={<Ministries />} />
+          <Route path="/partner-with-us" element={<PartnerWithUs />} />
+          <Route path="/summer-camp" element={<SummerCamp />} />
       </Routes>                
 
       <footer>

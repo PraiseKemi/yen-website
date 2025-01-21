@@ -26,10 +26,10 @@ export default function NavBar() {
                                 <NavLink to='/ministries' className={({ isActive }) => (isActive ? 'nav-link active-link' : 'nav-link')}>Ministries</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink to='/who-we-are' className={({ isActive }) => (isActive ? 'nav-link active-link' : 'nav-link')}>Partner with us</NavLink>
+                                <NavLink to='/partner-with-us' className={({ isActive }) => (isActive ? 'nav-link active-link' : 'nav-link')}>Partner with us</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink to='/who-we-are' className={({ isActive }) => (isActive ? 'nav-link active-link' : 'nav-link')}>Summer camp</NavLink>
+                                <NavLink to='/summer-camp' className={({ isActive }) => (isActive ? 'nav-link active-link' : 'nav-link')}>Summer camp</NavLink>
                             </li>
                             <NavLink className='nav-link-button' to='/'>
                                 <button className='nav-button'>Join community</button>
