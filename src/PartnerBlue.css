@@ -54,7 +54,7 @@
 #partnerBlueHeart {
     position: absolute;
     right: 123px;
-    top: 2439px;
+    top: 2939px;
 }
 
 @media (min-width:768px) and (max-width:1289px) {
@@ -70,8 +70,8 @@
 
     #partnerBlueHeart {
         width: 330px;
-        right: 90px;
-        top: 2015px;
+        right: 95px;
+        top: 2150px;
     }
 }
 

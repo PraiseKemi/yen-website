@@ -6,6 +6,12 @@
     --highlight-color: #FF6F00;
 }
 
+iframe {
+    width: 600px; 
+    height: 450px; 
+    border: 0;
+}
+
 .SummerCamp {
     background: white;
 }
@@ -30,11 +36,60 @@
     color: var(--highlight-color);
 }
 
+.eventDetails {
+    margin: 80px 0;
+}
+
+.summerCampDescription {
+    max-width: 55%;
+}
+
+.summerCampDescription h2 {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43.2px;
+}
+
+.summerCampDescription h3 {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    padding-top: 10px;
+}
+
+.summerCampDescription p {
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+}
+
+.summerCampDetails {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+}
+
+.line {
+    border-bottom: 3px solid #7a7a7c;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.contact img {
+    margin-right: 10px;
+}
+
 #aboutFirstBall {
     width: 72px;
     position: absolute;
     left: 110px;
-    top: 345px;
+    top: 360px;
     z-index: 0;
 }
 
@@ -49,6 +104,34 @@
     position: absolute;
     right: 260px;
     top: 190px;
+}
+
+#registerLink {
+    text-decoration: none;
+}
+
+#registerButton {
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+    padding: 14px 39px;
+    background: var(--secondary-color);
+    color: white;
+    border: 1px solid var(--secondary-color);
+    border-radius: 20px;
+    display: block;
+    margin: 25px auto;
+}
+
+#registerButton:hover {
+    background: white;
+    color: var(--secondary-color);
+    transition: all ease-in-out 200ms;
+}
+
+#descriptionIcon {
+    margin-right: 20px;
 }
 
 @media (min-width:900px) and (max-width:1290px) {
