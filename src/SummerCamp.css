@@ -93,11 +93,11 @@ iframe {
     margin-right: 10px;
 }
 
-.Faqs {
+.faqsHeader {
     width: 80%;
 }
 
-.Faqs h1 {
+.faqsHeader h1 {
     font-family: var(--primary-font);
     font-weight: 400;
     font-size: 48px;
@@ -185,5 +185,23 @@ iframe {
         line-height: 40px;
         text-align: center;
         margin: 0;
+    }
+
+    .summerCampRegister {
+        padding: 0 40px;
+    }
+
+    .summerCampDescription {
+        margin-top: 35px;
+    }
+
+    .faqsHeader h1 {
+        font-family: var(--primary-font);
+        font-weight: 400;
+        font-size: 34px;
+        color: #232528;
+        padding: 40px 0;
+        margin-left: 0;
+        text-align: center;
     }
 }

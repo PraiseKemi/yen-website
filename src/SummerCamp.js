@@ -1,6 +1,7 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
+import Faqs from './Faqs';
 import './SummerCamp.css';
 import flyer from "./images/summer-camp-flyer.svg";
 import blueball from "./images/blue-ball.svg";
@@ -39,7 +40,7 @@ export default function SummerCamp() {
             <section className='eventDetails'>
                 <div className='container'>
                     <div className='row'>
-                        <div className='col-md-5'>
+                        <div className='summerCampRegister col-md-5'>
                             <img src={flyer} alt="Summer Camp" className="img-fluid" />
                             <a href='https://www.instagram.com/weareyen/?hl=en' target='_blank' rel="noreferrer" id='registerLink'><button id='registerButton'>Register Now</button></a>
                         </div>
@@ -56,9 +57,9 @@ export default function SummerCamp() {
                                 lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsum
                             </p>
                             <hr className='line' />
-                            <h3>Direction</h3>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.5300466205435!2d3.4651206744822356!3d6.826863619564762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bc6d2350b131b%3A0xe8380a8ea9aabcff!2sThe%20Redeemed%20Christian%20Church%20Of%20God%2C%20The%20Youth%20Place!5e0!3m2!1sen!2sng!4v1737477725084!5m2!1sen!2sng" title='Summer camp venue map' allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                            <hr className='line' />
+                            <h3 className='d-none d-md-block'>Direction</h3>
+                            <iframe className='d-none d-md-block' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.5300466205435!2d3.4651206744822356!3d6.826863619564762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bc6d2350b131b%3A0xe8380a8ea9aabcff!2sThe%20Redeemed%20Christian%20Church%20Of%20God%2C%20The%20Youth%20Place!5e0!3m2!1sen!2sng!4v1737477725084!5m2!1sen!2sng" title='Summer camp venue map' allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <hr className='d-none d-md-block line' />
                             <div className='contact'>
                                 <h3>Contact Us</h3>
                                 <a href='https://www.instagram.com/weareyen/' target='_blank' rel='noreferrer'>
@@ -77,8 +78,9 @@ export default function SummerCamp() {
             </section>
             <hr className='secondLine' />
 
-            <section className='Faqs'>
+            <section className='faqsHeader'>
                 <h1>FREQUENTLY ASKED QUESTIONS</h1>
+                <Faqs />
             </section>
         </div>
     )

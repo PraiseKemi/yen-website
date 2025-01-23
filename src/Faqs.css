@@ -1,0 +1,112 @@
+:root {
+    --primary-font: "Luckiest Guy", cursive;
+    --secondary-font: "Bitter", serif;
+    --primary-color: #232528;
+    --secondary-color: #0834C4;
+    --highlight-color: #FF6F00;
+}
+
+.Faqs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 90%;
+    margin-left: 110px;
+    padding-bottom: 120px;
+}
+
+.faq-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 1px solid #EEEEEE;
+    padding: 30px 16px;
+    border-radius: 3px;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    cursor: pointer;
+    flex: 1;
+    max-width: 100%;
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.2px;
+}
+
+.faq-icon {
+    align-items: center;
+    cursor: pointer;
+    gap: 10px;
+}
+
+.faq-text-icon .circle {
+    transition: ease-in-out 200ms ease;
+    margin-right: 20px;
+}
+
+.faq-icons .arrow {
+    transition: ease-in-out 200ms ease;
+}
+
+.faq-answer {
+    display: none;
+    transition: all 0.3s ease;
+    flex: 1;
+    max-width: 50%;
+    margin-left: 50px;
+    font-family: var(--secondary-font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.faq-answer.active {
+    display: block;
+}
+
+.faq-question.active {
+    max-width: 50%;
+}
+
+@media (max-width: 900px) {
+    .Faqs {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    .faq-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .faq-question {
+        flex: unset;
+        width: 100%;
+    }
+
+    .faq-answer {
+        display: none;
+        margin-left: 10px;
+        margin-top: 25px;
+        flex: unset;
+        width: 100%;
+        flex: unset;
+    }
+
+    .faq-queestion.active {
+        max-width: 100%;
+    }
+
+    .faq-answer.active {
+        display: inline-block;
+        max-width: 100%;
+    }
+}    
