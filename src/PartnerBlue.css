@@ -54,10 +54,10 @@
 #partnerBlueHeart {
     position: absolute;
     right: 123px;
-    top: 2939px;
+    top: 2439px;
 }
 
-@media (min-width:768px) and (max-width:1289px) {
+@media (min-width:900px) and (max-width:1289px) {
     .PartnerBlue h2 {
         font-size: 65px;
         line-height: 65px;
@@ -75,7 +75,7 @@
     }
 }
 
-@media (min-width:600px) and (max-width:899px) {
+@media (min-width:601px) and (max-width:899px) {
     .PartnerBlue h2 {
         font-size: 45px;
         line-height: 45px;
@@ -110,8 +110,8 @@
     }
 
     .PartnerBlue p {
-        font-size: 12px;
-        line-height: 16px;
+        font-size: 14px;
+        line-height: 17px;
         text-align: center;
     }
 

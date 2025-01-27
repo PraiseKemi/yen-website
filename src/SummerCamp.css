@@ -142,7 +142,7 @@ iframe {
     border: 1px solid var(--secondary-color);
     border-radius: 20px;
     display: block;
-    margin: 25px auto;
+    margin: 35px auto;
 }
 
 #registerButton:hover {
@@ -156,6 +156,15 @@ iframe {
 }
 
 @media (min-width:900px) and (max-width:1290px) {
+    iframe {
+        width: 500px;
+        height: 450px;
+    }
+    
+    .eventDetails {
+        padding: 0 30px;
+    }
+
     .summerCampHeader h1 {
         font-size: 50px;
         line-height: 50px;
@@ -181,10 +190,11 @@ iframe {
     }
 
     .summerCampHeader h1 {
-        font-size: 35px;
-        line-height: 40px;
+        font-size: 30px;
+        line-height: 35px;
         text-align: center;
         margin: 0;
+        padding: 20px;
     }
 
     .summerCampRegister {
@@ -193,15 +203,52 @@ iframe {
 
     .summerCampDescription {
         margin-top: 35px;
+        max-width: 90%;
+    }
+
+    .faqsHeader {
+        width: 100%;
     }
 
     .faqsHeader h1 {
-        font-family: var(--primary-font);
-        font-weight: 400;
-        font-size: 34px;
-        color: #232528;
+        font-size: 30px;
         padding: 40px 0;
         margin-left: 0;
         text-align: center;
+    }
+
+    .summerCampDescription h2 {
+        text-align: center;
+        font-size: 32px;
+        line-height: 40.2px;
+    }
+
+    .summerCampDescription h3 {
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    .summerCampDescription p {
+        font-size: 14px;
+        line-height: 17.2px;
+        margin-top: 20px;
+    }
+
+    .contact {
+        justify-items: center;
+    }
+
+    .contact img {
+        margin: 0 5px;
+    }
+
+    #contactIcons {
+        margin-top: 20px;
+    }
+
+    #registerButton {
+        padding: 12px 30px;
+        font-size: 14px;
     }
 }

@@ -384,33 +384,33 @@ header a {
   
   header p {
     margin-left: -20px;
-    font-size: 9px;
-    line-height: 13.2px;
+    font-size: 14px;
+    line-height: 17.2px;
   }
   
   .communityButton {
     margin-left: -20px;
-    font-size: 9px;
+    font-size: 12px;
     padding: 9px 20px;
   }
   
   .learnButton {
     margin-left: -20px;
-    font-size: 9px;
+    font-size: 12px;
     padding: 10px 32px;
   }
 
   .homeWelcome h2,
   .homeEvents h2,
   .homeMinistries h2 {
-    font-size: 25px;
+    font-size: 30px;
   }
   
   .homeWelcome p,
   .homeEvents p,
   .homeMinistries p {
-    font-size: 10px;
-    line-height: 13.2px;
+    font-size: 14px;
+    line-height: 17.2px;
     margin-top: 10px;
   }
 
@@ -464,8 +464,8 @@ header a {
   }
   
   .sermons p {
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 14px;
+    line-height: 17px;
     text-align: center;
   }
 
@@ -496,19 +496,20 @@ header a {
   
   header p {
     text-align: center;
-    font-size: 9px;
-    line-height: 13.2px;
+    font-size: 14px;
+    line-height: 17.2px;
+    padding: 0 30px;
   }
   
   .communityButton {
-    font-size: 10px;
+    font-size: 12px;
     padding: 9px 20px;
     display: block;
     margin: 0 auto;
   }
   
   .learnButton {
-    font-size: 10px;
+    font-size: 12px;
     padding: 10px 32px;
     display: block;
     margin: 20px auto;
@@ -517,14 +518,14 @@ header a {
     .homeWelcome h2,
     .homeEvents h2,
     .homeMinistries h2 {
-      font-size: 25px;
+      font-size: 30px;
     }
   
     .homeWelcome p,
     .homeEvents p,
     .homeMinistries p {
-      font-size: 10px;
-      line-height: 13.2px;
+      font-size: 14px;
+      line-height: 17.2px;
       margin-top: 10px;
     }
   
@@ -601,8 +602,8 @@ header a {
     }
   
     .sermons p {
-      font-size: 10px;
-      line-height: 16px;
+      font-size: 14px;
+      line-height: 17px;
       text-align: center;
     }
   

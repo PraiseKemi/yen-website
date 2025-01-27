@@ -62,6 +62,7 @@ export default function SummerCamp() {
                             <hr className='d-none d-md-block line' />
                             <div className='contact'>
                                 <h3>Contact Us</h3>
+                                <div id='contactIcons'>
                                 <a href='https://www.instagram.com/weareyen/' target='_blank' rel='noreferrer'>
                                     <img src={instagram} alt='instagram' />
                                 </a>
@@ -70,7 +71,8 @@ export default function SummerCamp() {
                                 </a>
                                 <a href="mailto:example@email.com" target='_blank' rel='noreferrer'>
                                     <img src={email} alt='email' />
-                                </a>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>

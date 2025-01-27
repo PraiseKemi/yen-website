@@ -51,13 +51,13 @@
     transition: all ease-in-out 200ms;
 }
 
-#partnerBlueHeart {
+#partnerBlueGiveHeart {
     position: absolute;
     right: 123px;
     top: 1378px;
 }
 
-@media (min-width:768px) and (max-width:1289px) {
+@media (min-width:900px) and (max-width:1289px) {
     .PartnerBlue h2 {
         font-size: 65px;
         line-height: 65px;
@@ -68,14 +68,14 @@
         line-height: 20px;
     }
 
-    #partnerBlueHeart {
+    #partnerBlueGiveHeart {
         width: 330px;
         right: 90px;
         top: 2015px;
     }
 }
 
-@media (min-width:600px) and (max-width:899px) {
+@media (min-width:601px) and (max-width:899px) {
     .PartnerBlue h2 {
         font-size: 45px;
         line-height: 45px;
@@ -110,8 +110,8 @@
     }
 
     .PartnerBlue p {
-        font-size: 12px;
-        line-height: 16px;
+        font-size: 14px;
+        line-height: 17px;
         text-align: center;
     }
 

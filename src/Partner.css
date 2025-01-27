@@ -57,7 +57,7 @@
     top: 3877px;
 }
 
-@media (min-width:768px) and (max-width:1289px) {
+@media (min-width:601px) and (max-width:1289px) {
     .Partner h2 {
         font-size: 65px;
         line-height: 65px;
@@ -75,28 +75,6 @@
     }
 }
 
-@media (min-width:431px) and (max-width:899px) {
-    .Partner h2 {
-        font-size: 45px;
-        line-height: 45px;
-        text-align: center;
-    }
-    
-    .Partner p {
-        font-size: 12px;
-        line-height: 16px;
-        text-align: center;
-    }
-    
-    .Partner button {
-        font-size: 14px;
-        line-height: 17.2px;
-        padding: 12px 40px;
-        display: block;
-        margin: 0 auto;
-    }
-}
-
 @media (max-width:600px) {
     .Partner {
         margin: 20px auto;
@@ -110,8 +88,8 @@
     }
     
     .Partner p {
-        font-size: 10px;
-        line-height: 16px;
+        font-size: 14px;
+        line-height: 17px;
         text-align: center;
     }
     

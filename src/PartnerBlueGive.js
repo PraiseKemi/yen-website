@@ -11,7 +11,7 @@ export default function PartnerBlue() {
           consectetur adipiscing elit, sed do eiusmod tempor
         </p>
         <a href='https://www.instagram.com/weareyen/?hl=en' target='_blank' rel="noreferrer"><button>Give</button></a>
-        <img src={aboutHeart} alt='heart' className='img-fluid d-none d-lg-block' id='partnerBlueHeart' />
+        <img src={aboutHeart} alt='heart' className='img-fluid d-none d-lg-block' id='partnerBlueGiveHeart' />
         </div>
     )
 }
